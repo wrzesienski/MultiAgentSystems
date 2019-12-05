@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bf80d40-9257-4f7a-bfc2-e85e7596c4cd" name="Default Changelist" comment="V.1.0 working">
+    <list default="true" id="5bf80d40-9257-4f7a-bfc2-e85e7596c4cd" name="Default Changelist" comment="V.1.1 working">
       <change afterPath="$PROJECT_DIR$/../Antonov+Ilya.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DFTests/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab1/.idea/compiler.xml" afterDir="false" />
@@ -57,34 +57,10 @@
       <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/Service.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/SkipClass.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/SlaveAgent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/APDescription.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MTPs-Main-Container.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AgentContainer/AgentMainLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainBehaviors/ReadAndSendBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainBehaviors/WaitTheKeyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainBehaviors/WaitingYourLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/ChooseBestWeightBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/GetAndWakeBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/WakerReverserBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WorkWithXML/AgentCfg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WorkWithXML/Neighbor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WorkWithXML/ReadXMLFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WorkWithXML/WorkWithCfgs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Lab3.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WorkWithXML/AgentCfg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WorkWithXML/Neighbor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WorkWithXML/ReadXMLFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WorkWithXML/WorkWithCfgs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puk.rar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab4/Lab4.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lec3/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MAS_homework/.idea/compiler.xml" afterDir="false" />
@@ -849,6 +825,29 @@
       <change afterPath="$PROJECT_DIR$/../exceptionsLec/target/classes/xmlCfg/WorkWithCfgs.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exceptionsLec/target/test-classes/junitExample/MyClassTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exceptionsLec/target/test-classes/xmlCfg/AgentCfgTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APDescription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/APDescription.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTPs-Main-Container.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MTPs-Main-Container.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AgentContainer/AgentMainLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AgentContainer/AgentMainLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainBehaviors/ReadAndSendBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainBehaviors/ReadAndSendBehaviour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainBehaviors/WaitTheKeyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainBehaviors/WaitTheKeyBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainBehaviors/WaitingYourLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainBehaviors/WaitingYourLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/ChooseBestWeightBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/ChooseBestWeightBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/GetAndWakeBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/GetAndWakeBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/WakerReverserBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/WakerReverserBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithXML/Neighbor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithXML/Neighbor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithXML/ReadXMLFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithXML/ReadXMLFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithXML/WorkWithCfgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithXML/WorkWithCfgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WorkWithXML/Neighbor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkWithXML/Neighbor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WorkWithXML/ReadXMLFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkWithXML/ReadXMLFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WorkWithXML/WorkWithCfgs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkWithXML/WorkWithCfgs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetBetBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetBetBehavior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetThenEndBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetThenEndBehavior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/SellerBehaviors/FightBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/SellerBehaviors/FightBehavior.java" afterDir="false" />
@@ -881,7 +880,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1Sv9d2RyoAOcK1vnT9RizxYcOBW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -912,7 +913,7 @@
     <configuration name="Agents" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="jade.Boot" />
       <module name="Lab3" />
-      <option name="PROGRAM_PARAMETERS" value="-gui -agents A0:AgentContainer.AgentMainLogic;A1:AgentContainer.AgentMainLogic;A2:AgentContainer.AgentMainLogic;A3:AgentContainer.AgentMainLogic;A4:AgentContainer.AgentMainLogic;A5:AgentContainer.AgentMainLogic;A6:AgentContainer.AgentMainLogic;" />
+      <option name="PROGRAM_PARAMETERS" value="-gui -agents A0:AgentContainer.AgentMainLogic;A1:AgentContainer.AgentMainLogic;A2:AgentContainer.AgentMainLogic;A3:AgentContainer.AgentMainLogic;A4:AgentContainer.AgentMainLogic;A5:AgentContainer.AgentMainLogic;A6:AgentContainer.AgentMainLogic;A7:AgentContainer.AgentMainLogic;A8:AgentContainer.AgentMainLogic;A9:AgentContainer.AgentMainLogic;A10:AgentContainer.AgentMainLogic;" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -929,6 +930,14 @@
       <option name="presentableId" value="Default" />
       <updated>1572433285271</updated>
     </task>
+    <task id="LOCAL-00001" summary="V.1.0 working">
+      <created>1575546720188</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575546720189</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -945,7 +954,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="V.1.0 working" />
-    <option name="LAST_COMMIT_MESSAGE" value="V.1.0 working" />
+    <MESSAGE value="V.1.1 working" />
+    <option name="LAST_COMMIT_MESSAGE" value="V.1.1 working" />
   </component>
 </project>

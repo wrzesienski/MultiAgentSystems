@@ -6,15 +6,16 @@ import SecondRoleBehaviors.WakerReverserBehavior;
 import jade.core.behaviours.Behaviour;
 import jade.lang.acl.ACLMessage;
 import jade.lang.acl.MessageTemplate;
-
 import java.util.ArrayList;
 import java.util.Collections;
 
+
+/**
+ * The class is transitional to determine the agent - the end node
+ * and begin to evaluate the best path
+ */
 public class WaitTheKeyBehavior extends Behaviour {
-    /**
-     * Класс является переходным для определения агента - конечного узла и
-     * начала оценки наилучшего пути
-     */
+
 
     private boolean keyExit;
 
@@ -27,10 +28,12 @@ public class WaitTheKeyBehavior extends Behaviour {
         if (receive != null){
 
             System.out.println("Key was switched by "+  getAgent().getLocalName());
-            ArrayList<String> way = new ArrayList<>();
             keyExit = true;
+
             String[] backpack = receive.getContent().split(";");
             String[] forParsing = backpack[0].replaceAll("[\\[\\]]", "").split(", ");
+
+            ArrayList<String> way = new ArrayList<>();
             Collections.addAll(way, forParsing);
             way.add(getAgent().getLocalName());
 

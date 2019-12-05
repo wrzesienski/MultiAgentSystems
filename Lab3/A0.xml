@@ -2,7 +2,7 @@
 <cfg>
     <name>A0</name>
     <neighbors>
-        <neighbor agentName="A1" weight="5.0"/>
-        <neighbor agentName="A2" weight="7.0"/>
+        <neighbor agentName="A1" weight="1.0"/>
+        <neighbor agentName="A2" weight="4.0"/>
     </neighbors>
 </cfg>

@@ -4,6 +4,9 @@ import jade.core.behaviours.Behaviour;
 import jade.core.behaviours.ParallelBehaviour;
 import jade.core.behaviours.WakerBehaviour;
 
+/**
+ * child class
+ */
 public class GetAndWakeBehavior extends ParallelBehaviour {
 
     private Behaviour GetBetBehavior;

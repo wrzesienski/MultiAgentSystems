@@ -10,10 +10,16 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 import java.util.Arrays;
 
-
+@Deprecated
 public class ReadXMLFile {
 
 
+
+    /**
+     * Old fashioned mean to parse xml file.
+     * @param agentName actual name of agent using the class
+     * @return parsed parameters list of agent's neighbors
+     */
     public static String[][] open(String agentName) {
 
 
@@ -38,7 +44,6 @@ public class ReadXMLFile {
 //                System.out.println("\nCurrent Element :" + nNode.getNodeName());
                 if (nNode.getNodeType() == Node.ELEMENT_NODE) {
                     Element eElement = (Element) nNode;
-
                     lists[temp][0] = eElement.getAttribute("agentName");
 //                    System.out.println("Staff id : "
 //                            + eElement.getAttribute("agentName"));
