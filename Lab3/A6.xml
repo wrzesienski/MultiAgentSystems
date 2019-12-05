@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cfg>
+    <name>A6</name>
+    <neighbors>
+        <neighbor agentName="A3" weight="1.0"/>
+    </neighbors>
+</cfg>
