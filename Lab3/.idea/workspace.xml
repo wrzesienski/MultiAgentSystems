@@ -57,10 +57,6 @@
       <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/Service.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/SkipClass.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/SlaveAgent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puk.rar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab4/Lab4.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lec3/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MAS_homework/.idea/compiler.xml" afterDir="false" />
@@ -826,28 +822,6 @@
       <change afterPath="$PROJECT_DIR$/../exceptionsLec/target/test-classes/junitExample/MyClassTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exceptionsLec/target/test-classes/xmlCfg/AgentCfgTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/A6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APDescription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/APDescription.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MTPs-Main-Container.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MTPs-Main-Container.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AgentContainer/AgentMainLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AgentContainer/AgentMainLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainBehaviors/ReadAndSendBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainBehaviors/ReadAndSendBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainBehaviors/WaitTheKeyBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainBehaviors/WaitTheKeyBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainBehaviors/WaitingYourLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainBehaviors/WaitingYourLetter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/ChooseBestWeightBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/ChooseBestWeightBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/GetAndWakeBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/GetAndWakeBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/WakerReverserBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SecondRoleBehaviors/WakerReverserBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithXML/Neighbor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithXML/Neighbor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithXML/ReadXMLFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithXML/ReadXMLFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WorkWithXML/WorkWithCfgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WorkWithXML/WorkWithCfgs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WorkWithXML/Neighbor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkWithXML/Neighbor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WorkWithXML/ReadXMLFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkWithXML/ReadXMLFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WorkWithXML/WorkWithCfgs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkWithXML/WorkWithCfgs.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetBetBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetBetBehavior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetThenEndBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetThenEndBehavior.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/SellerBehaviors/FightBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/SellerBehaviors/FightBehavior.java" afterDir="false" />
@@ -937,7 +911,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575546720189</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="V.1.1 working">
+      <created>1575573230397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575573230397</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

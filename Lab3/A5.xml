@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<cfg>
-    <name>A5</name>
-    <neighbors>
-        <neighbor agentName="A2" weight="6.0"/>
-        <neighbor agentName="A4" weight="4.0"/>
-        <neighbor agentName="A8" weight="2.0"/>
-    </neighbors>
-</cfg>
