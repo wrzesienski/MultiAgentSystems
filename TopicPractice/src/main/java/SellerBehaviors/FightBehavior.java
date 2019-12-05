@@ -81,8 +81,6 @@ public class FightBehavior extends Behaviour {
         }
 
 
-        
-
         msg2 = getAgent().receive(tm[1]);
         if (msg2 != null) {
             key = true;

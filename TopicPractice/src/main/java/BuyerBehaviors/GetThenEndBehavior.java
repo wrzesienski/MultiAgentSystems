@@ -2,10 +2,11 @@ package BuyerBehaviors;
 
 import jade.core.behaviours.Behaviour;
 import jade.core.behaviours.ParallelBehaviour;
+import jade.core.behaviours.WakerBehaviour;
 
 public class GetThenEndBehavior extends ParallelBehaviour {
     Behaviour GetBetBehavior, WakerBehavior;
-    public GetThenEndBehavior(Behaviour GetBetBehavior, Behaviour WakerBehavior) {
+    public GetThenEndBehavior(Behaviour GetBetBehavior, WakerBehaviour WakerBehavior) {
         this.GetBetBehavior = GetBetBehavior;
         this.WakerBehavior = WakerBehavior;
     }

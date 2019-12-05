@@ -56,7 +56,7 @@ public class GetBetBehavior extends Behaviour {
 
         ACLMessage keyMsg =  getAgent().receive(tm[1]);
         if (keyMsg != null) {
-            System.out.println("Bets r ended, " + bestSeller.getLocalName() + " has won with bet " + bestBet);
+            System.out.printf("Bets r ended, %s has won with bet %.3f \n", bestSeller.getLocalName(), bestBet);
             key = true;
             getAgent().addBehaviour(new SendWinner(bestBet, bestSeller));
         }
