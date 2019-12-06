@@ -4,59 +4,16 @@
     <list default="true" id="5bf80d40-9257-4f7a-bfc2-e85e7596c4cd" name="Default Changelist" comment="V.1.1 working">
       <change afterPath="$PROJECT_DIR$/../Antonov+Ilya.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../DFTests/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/Lab1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/src/main/java/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/src/main/java/ConsumerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/src/main/java/FixedRateRandomProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/src/main/java/NewProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/src/main/java/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/target/classes/Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/target/classes/ConsumerImpl$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/target/classes/ConsumerImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/target/classes/FixedRateRandomProducer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/target/classes/FixedRateRandomProducer$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/target/classes/FixedRateRandomProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/target/classes/META-INF/Lab1.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/target/classes/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/target/classes/NewProducer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/target/classes/NewProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab1/target/classes/Producer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/APDescription.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/FinalLab2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/Lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/MTPs-Main-Container.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/Zheshchinsky_AI_E-13M-19.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/src/main/java/ACLSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/src/main/java/Calculations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/src/main/java/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/src/main/java/MainAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/src/main/java/RandomNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/src/main/java/RegistrationOfAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/src/main/java/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/src/main/java/SkipClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/src/main/java/SlaveAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/ACLSample.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/Calculations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/Functions.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/META-INF/MAS_homework.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/MainAgent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/RandomNumber.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/RegistrationOfAgent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/SkipClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab2/target/classes/SlaveAgent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A9.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab4/Lab4.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lec3/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MAS_homework/.idea/compiler.xml" afterDir="false" />
@@ -711,34 +668,6 @@
       <change afterPath="$PROJECT_DIR$/../TestingProject/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestingProject/src/main/java/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestingProject/target/classes/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/APDescription.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/MTPs-Main-Container.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/TopicPractice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/Zheshchinski_E-13M-19.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/Buyer/BuyerBryan.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/BetEndingBehavior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/GetBetBehavior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/GetThenEndBehavior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/InitialBuyerBetBehavior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/SendWinner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/InNextLife/AnotherOneFSM$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/InNextLife/AnotherOneFSM$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/InNextLife/AnotherOneFSM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/InNextLife/ExperimentalFSM$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/InNextLife/ExperimentalFSM$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/InNextLife/ExperimentalFSM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/META-INF/TopicPractice.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/SellerBehaviors/FightBehavior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/SellerBehaviors/MakeContractBehavior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/SellerBehaviors/SubscribeBehavior.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/Sellers/Service.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/Sellers/WaitingSellers.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TopicTest.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exceptionsLec/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exceptionsLec/.idea/misc.xml" afterDir="false" />
@@ -821,11 +750,13 @@
       <change afterPath="$PROJECT_DIR$/../exceptionsLec/target/classes/xmlCfg/WorkWithCfgs.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exceptionsLec/target/test-classes/junitExample/MyClassTest.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exceptionsLec/target/test-classes/xmlCfg/AgentCfgTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetBetBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetBetBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetThenEndBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetThenEndBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/SellerBehaviors/FightBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/SellerBehaviors/FightBehavior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/Sellers/WaitingSellers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/Sellers/WaitingSellers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AgentContainer/AgentMainLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AgentContainer/AgentMainLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainBehaviors/ReadAndSendBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainBehaviors/ReadAndSendBehaviour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WorkWithXML/WorkWithCfgs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkWithXML/WorkWithCfgs.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -860,7 +791,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -918,7 +849,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575573230397</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="V.1.1 working">
+      <created>1575574392727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575574392727</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

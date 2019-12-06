@@ -20,82 +20,58 @@ public class ReadAndSendBehaviour extends OneShotBehaviour {
     private ArrayList<String> way;
     private String lastWord;
     private double weightToSend;
-    private double actualWeight = 0;
 
     /**
-     * @param way actual list of nodes in route
+     * @param way          actual list of nodes in route
      * @param weightToSend total weight of the way parameter
-     * @param lastWord special key message
+     * @param lastWord     special key message
      */
-    public ReadAndSendBehaviour(ArrayList<String> way, double weightToSend, String lastWord){
+    public ReadAndSendBehaviour(ArrayList<String> way, double weightToSend, String lastWord) {
         this.way = way;
         this.weightToSend = weightToSend;
         this.lastWord = lastWord;
-
     }
-
 
     @Override
     public void action() {
 
-        boolean addedOrNot = false;
+        ArrayList<String> actualWay = new ArrayList<>(way);
+        actualWay.add(getAgent().getLocalName());
+        double actualWeight;
 
 //      parsing initial XML-File
-        String[][] lists = WorkWithCfgs.unMarshalAny(getAgent().getLocalName()+".xml");
+        String[][] lists = WorkWithCfgs.unMarshalAny(getAgent().getLocalName() + ".xml");
 
-           for (String[] list : lists) {
+        for (String[] list : lists) {
 //              filer of double node enter
-                if (filtrateSenderByName(way, list[0], lastWord)
-                        ) continue;
-                ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
-                if (!lastWord.equals("ToStart")) {  // from start to finish filter
+            if (filtrateSenderByName(way, list[0], lastWord)) continue;
 
-                    msg.addReceiver(new AID(list[0], false));
-                    actualWeight = weightToSend + Double.parseDouble(list[1]);
+            ACLMessage msg = new ACLMessage(ACLMessage.INFORM);
 
-                    // logical condition for adding agentName to path just one time
-                    if (!addedOrNot) {
-                        way.add(getAgent().getLocalName());
-                        addedOrNot = true;
-                    }
-                }
+            if (lastWord.equals("ToStart")) {  // from finish to start filter
 
+                actualWeight = weightToSend;
+                int ii = way.indexOf(getAgent().getLocalName());
 
+                // moving back to start
+                String agentTarget = way.get(ii - 1);
 
-                if (lastWord.equals("ToStart")){  // from finish to start filter
+                covertInMessage(msg, agentTarget,
+                        way, actualWeight, lastWord);
 
-                    actualWeight = weightToSend;
-                   int ii = way.indexOf(getAgent().getLocalName());
-
-                   // moving back to start
-                   String agentTarget = way.get(ii - 1);
-                   msg.addReceiver(new AID(agentTarget, false));
-
-                    String content = way + ";" +
-                            actualWeight + ";" +
-                            lastWord;
-                    msg.setContent(content);
-
-                    System.out.println(getAgent().getLocalName() + " sends message to "
-                         +  agentTarget + " with good news!");
-                    msg.setProtocol("HelloNeighbor");
-                    getAgent().send(msg);
-                    break;
-
-               }
-
-               String content = way + ";" +
-                       actualWeight + ";" +
-                       lastWord;
-               msg.setContent(content);
-
-//                System.out.println(getAgent().getLocalName() + " sends to "
-//                        + list[0] + " " + content);
-                msg.setProtocol("HelloNeighbor");
-                getAgent().send(msg);
-
+                System.out.println(getAgent().getLocalName() + " sends message to "
+                        + agentTarget + " with good news!");
+                break;
 
             }
+
+            actualWeight = weightToSend + Double.parseDouble(list[1]);
+
+            covertInMessage(msg, list[0],
+                    actualWay, actualWeight, lastWord);
+
+
+        }
 
     }
 
@@ -104,12 +80,13 @@ public class ReadAndSendBehaviour extends OneShotBehaviour {
      * -- on straight run: if name of agent-neighbor is already located inside the list then
      * return boolean is true
      * -- on reverse rung: return boolean is always false
+     *
      * @param list list of nodes in way
-     * @param str name of agent-neighbor
-     * @param key key message
+     * @param str  name of agent-neighbor
+     * @param key  key message
      * @return boolean
      */
-    private static boolean filtrateSenderByName(List<String> list, String str, String key){
+    private static boolean filtrateSenderByName(List<String> list, String str, String key) {
 
         boolean boo = false;
 
@@ -128,4 +105,27 @@ public class ReadAndSendBehaviour extends OneShotBehaviour {
         }
         return boo;
     }
+
+    /**
+     * just coverting msg method
+     * @param msg msg to convert and send
+     * @param agentTarget agentName receiver
+     * @param way actual route
+     * @param weight weight of route
+     * @param key special word
+     */
+    private void covertInMessage(ACLMessage msg, String agentTarget,
+                                 ArrayList way, double weight, String key) {
+
+
+
+        msg.addReceiver(new AID(agentTarget, false));
+        String content = way + ";" +
+                weight + ";" +
+                key;
+        msg.setContent(content);
+        msg.setProtocol("HelloNeighbor");
+        getAgent().send(msg);
+    }
+
 }

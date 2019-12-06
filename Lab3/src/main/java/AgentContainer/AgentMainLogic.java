@@ -29,7 +29,7 @@ public class AgentMainLogic extends Agent {
 
     };
 
-    private static int[] nodes = {0, 4};
+    private static int[] nodes = {0, 6};
 
 
     @Override
@@ -41,7 +41,8 @@ public class AgentMainLogic extends Agent {
         addBehaviour(new WaitTheKeyBehavior());
 
         if (getLocalName().equals("A" + nodes[0])) {
-            addBehaviour(new ReadAndSendBehaviour(new ArrayList<String>(), 0, "A" + nodes[1]));
+            addBehaviour(new ReadAndSendBehaviour(new ArrayList<String>(),
+                    0, "A" + nodes[1]));
         }
     }
 
@@ -55,16 +56,13 @@ public class AgentMainLogic extends Agent {
             double[] matrix = matrixB[i];
 
             for (int j = 0; j < matrix.length; j++) {
-
                 if (matrix[j] != 0) {
-
                     neighbors.add(new Neighbor("A" + j, matrix[j]));
                 }
             }
             agentcfg.setName("A" + i);
             agentcfg.setNeighbors(neighbors);
             WorkWithCfgs.marshalAny(AgentCfg.class, agentcfg, "A" + i + ".xml");
-
         }
     }
 }
