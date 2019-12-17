@@ -21,7 +21,6 @@ public class WaitingYourLetter extends Behaviour {
         ArrayList<String> way = new ArrayList<>();
         double actualWayWeight;
 
-
         ACLMessage receive = getAgent().receive(
                 MessageTemplate.MatchProtocol("HelloNeighbor"));
 

@@ -15,6 +15,37 @@
       <change afterPath="$PROJECT_DIR$/A8.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/A9.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab4/Lab4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/AgentLauncher/AgentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/AgentLauncher/AgentDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/AgentLauncher/ImportFromExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/AgentLauncher/LauncherAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/AgentLauncher/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/AgentLauncher/WorkWithConfigurationFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/ConsumerNature/AgentConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/ConsumerNature/Behaviors/BuyEnergyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/ConsumerNature/Behaviors/EatBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/ConsumerNature/Behaviors/StayAliveBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/ConsumerNature/Behaviors/WakerWake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/DistributorNature/AgentDistributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/DistributorNature/Behaviors/BetEndingBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/DistributorNature/Behaviors/GetBetBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/DistributorNature/Behaviors/MeBestFSMBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/DistributorNature/Behaviors/WaitConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/ProducerNature/AgentProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/ProducerNature/Behaviors/MakeFoodBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/ProducerNature/Behaviors/TopicDialogueBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/ProducerNature/Behaviors/WaitInviteBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/ProducerNature/Behaviors/WakerProduceBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/TimeControlAndServices/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/java/TimeControlAndServices/TimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/resources/pl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/src/main/resources/pl1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/target/classes/AgentLauncher/ImportFromExcel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/target/classes/ConsumerNature/Behaviors/StayAliveBehavior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/target/classes/DistributorNature/Behaviors/MeBestFSMBehavior$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/target/classes/DistributorNature/Behaviors/MeBestFSMBehavior$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/target/classes/DistributorNature/Behaviors/MeBestFSMBehavior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/target/classes/TimeControl/TimeUtil.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lec3/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MAS_homework/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../MAS_homework/.idea/misc.xml" afterDir="false" />
@@ -66,6 +97,48 @@
       <change afterPath="$PROJECT_DIR$/../PingPong/target/classes/RegistrAgent.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PingPong/target/classes/SecondBehavior.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PingPong/target/classes/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/APDescription.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/MTPs-pl1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/src/main/java/launcher/AgentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/src/main/java/launcher/AgentDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/src/main/java/launcher/LauncherAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/src/main/java/launcher/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/src/main/java/launcher/MyAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/src/main/java/launcher/MyBoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/src/main/java/launcher/WorkWithConfigurationFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/src/main/java/storage/CalcPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/src/main/java/storage/Cathegory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/src/main/java/storage/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/src/main/java/storage/StorageAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/src/main/resources/pl.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/AgentConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/AgentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/AgentDefinition.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/AgentDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/LauncherAgent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/LauncherAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/MyAgent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/MyAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/MyBoot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/MyBoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/WorkWithConfigurationFiles.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/launcher/WorkWithConfigurationFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/storage/CalcPrice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/storage/CalcPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/storage/Cathegory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/storage/Cathegory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/storage/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/storage/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/storage/StorageAgent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StorageControlSystem/target/classes/storage/StorageAgent.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Storages/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Storages/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Storages/.idea/uiDesigner.xml" afterDir="false" />
@@ -664,6 +737,7 @@
       <change afterPath="$PROJECT_DIR$/../TestingProject/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestingProject/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestingProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TestingProject/Sample.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestingProject/TestingProject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestingProject/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TestingProject/src/main/java/Main.java" afterDir="false" />
@@ -754,9 +828,25 @@
       <change beforePath="$PROJECT_DIR$/../Lab2/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AgentContainer/AgentMainLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AgentContainer/AgentMainLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainBehaviors/ReadAndSendBehaviour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainBehaviors/ReadAndSendBehaviour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WorkWithXML/WorkWithCfgs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WorkWithXML/WorkWithCfgs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MTPs-Main-Container.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MTPs-Main-Container.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainBehaviors/WaitingYourLetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainBehaviors/WaitingYourLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/APDescription.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/APDescription.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/MTPs-Main-Container.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/MTPs-Main-Container.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/Buyer/BuyerBryan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/Buyer/BuyerBryan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/BetEndingBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/BetEndingBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetBetBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetBetBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetThenEndBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/GetThenEndBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/InitialBuyerBetBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/InitialBuyerBetBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/SendWinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/BuyerBehaviors/SendWinner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/src/main/java/SellerBehaviors/FightBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/src/main/java/SellerBehaviors/FightBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/target/classes/Buyer/BuyerBryan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/Buyer/BuyerBryan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/BetEndingBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/BetEndingBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/GetBetBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/GetBetBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/GetThenEndBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/GetThenEndBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/InitialBuyerBetBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/InitialBuyerBetBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/SendWinner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/BuyerBehaviors/SendWinner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/target/classes/SellerBehaviors/FightBehavior.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/SellerBehaviors/FightBehavior.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TopicPractice/target/classes/Sellers/WaitingSellers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TopicPractice/target/classes/Sellers/WaitingSellers.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -791,7 +881,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -856,7 +946,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575574392727</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="V.1.1 working">
+      <created>1575665631819</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575665631819</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
