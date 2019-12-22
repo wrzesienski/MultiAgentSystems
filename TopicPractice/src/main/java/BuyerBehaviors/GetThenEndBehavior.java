@@ -5,7 +5,7 @@ import jade.core.behaviours.ParallelBehaviour;
 import jade.core.behaviours.WakerBehaviour;
 
 public class GetThenEndBehavior extends ParallelBehaviour {
-    Behaviour GetBetBehavior, WakerBehavior;
+    private Behaviour GetBetBehavior, WakerBehavior;
     public GetThenEndBehavior(Behaviour GetBetBehavior, WakerBehaviour WakerBehavior) {
         this.GetBetBehavior = GetBetBehavior;
         this.WakerBehavior = WakerBehavior;

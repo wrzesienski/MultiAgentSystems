@@ -14,17 +14,16 @@ import java.util.Random;
 
 public class BuyerBryan extends Agent {
 
-//    Creator:Buyer.AgentTopicCreator;
-
+    DFAgentDescription dfad;
     private DFAgentDescription[] foundAgents;
-    private DFAgentDescription dfad;
-    Random rnd = new Random();
+    private Random rnd = new Random();
     double startBet = 60 + rnd.nextInt(40);
+    AID test;
 
 
     @Override
     protected void setup() {
-        final AID test = createTopic();
+        test = createTopic();
 
         try {
             Thread.sleep(2000);
@@ -35,7 +34,7 @@ public class BuyerBryan extends Agent {
 
         addBehaviour(new GetThenEndBehavior(
                 new GetBetBehavior(test, startBet),
-                new BetEndingBehavior(this, 15000, test)
+                new BetEndingBehavior(this, 35000, test)
         ));
 
         addBehaviour(new InitialBuyerBetBehavior(this, 2000, test, startBet));
@@ -49,7 +48,7 @@ public class BuyerBryan extends Agent {
         try {
             topicHelper = (TopicManagementHelper)
                     getHelper(TopicManagementHelper.SERVICE_NAME);
-            jadeTopic = topicHelper.createTopic("Test");
+            jadeTopic = topicHelper.createTopic("Kek");
             topicHelper.register(jadeTopic);
         } catch (ServiceException e) {
             e.printStackTrace();
