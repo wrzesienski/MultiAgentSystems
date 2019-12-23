@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config>
+    <agents>
+        <agentDefinition agentName="AgentDistributor1" className="DistributorNature.AgentDistributor" filepath=""/>
+        <agentDefinition agentName="AgentDistributor2" className="DistributorNature.AgentDistributor" filepath=""/>
+        <agentDefinition agentName="AgentDistributor3" className="DistributorNature.AgentDistributor" filepath=""/>
+        <agentDefinition agentName="AgentConsumer1" className="ConsumerNature.AgentConsumer" filepath="15.0 15.0 8.0 8.0 8.0 15.0 15.0 15.0 20.0 20.0 20.0 10.0 10.0 9.0 9.0 10.0 20.0 20.0 10.0 10.0 9.0 10.0 10.0 10.0"/>
+        <agentDefinition agentName="AgentConsumer2" className="ConsumerNature.AgentConsumer" filepath="9.0 9.0 9.0 9.0 9.0 9.0 9.0 9.0 15.0 15.0 15.0 15.0 20.0 20.0 15.0 15.0 20.0 20.0 12.0 12.0 15.0 15.0 11.0 9.0"/>
+        <agentDefinition agentName="AgentConsumer3" className="ConsumerNature.AgentConsumer" filepath="5.0 5.0 5.0 7.0 7.0 7.0 7.0 7.0 7.0 5.0 5.0 5.0 7.0 7.0 7.0 7.0 7.0 7.0 5.0 5.0 5.0 5.0 5.0 5.0"/>
+        <agentDefinition agentName="AgentProducer1" className="ProducerNature.AgentProducer" filepath="20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0 20.0"/>
+        <agentDefinition agentName="AgentProducer2" className="ProducerNature.AgentProducer" filepath="0.0 0.0 0.0 0.0 0.0 0.0 7.780000000000221 24.03000000000042 41.97080000000022 57.367000000000296 65.67360000000102 62.35999999999964 43.09000000000142 3.757800000001076 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0"/>
+        <agentDefinition agentName="AgentProducer3" className="ProducerNature.AgentProducer" filepath="9.373132369165713 14.68497726010337 3.5849357051186903 8.004045354041637 9.681221575559407 0.0 7.624536258850842 0.0 1.1387023215645629 14.652293009926929 0.0 1.4246783246818957 0.0 8.907126997055805 6.587116860420223 4.538679389065191 1.3731860232881727 5.157015511828908 3.2862290375492007 12.520012631745752 0.7753669365686147 0.0 6.111021715544129 9.820195678315535"/>
+        <agentDefinition agentName="AgentProducer4" className="ProducerNature.AgentProducer" filepath="6.90160519444892 4.899707921211302 0.0 5.660735285424678 4.88481480890689 0.9308796545960023 8.425780037976589 0.0 0.0 10.368695835223322 12.515574342350314 8.499226899395305 10.07961376403757 9.883470581045577 4.857022038991187 0.0 3.1844403509172223 3.881339387916055 11.97595166080626 13.473259763900884 5.2822591797540115 3.8553370879376123 0.0 5.001799990717271"/>
+    </agents>
+</config>
